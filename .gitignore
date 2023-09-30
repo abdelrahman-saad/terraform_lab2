@@ -5,8 +5,6 @@
 # Ignore .terraform directory
 .terraform/
 
-# Ignore .tfvars files that may contain sensitive information
-*.tfvars
 
 # Ignore .terraform.lock.hcl file (Terraform 0.15+)
 .terraform.lock.hcl
