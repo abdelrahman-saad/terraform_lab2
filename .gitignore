@@ -1,0 +1,15 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .tfvars files that may contain sensitive information
+*.tfvars
+
+# Ignore .terraform.lock.hcl file (Terraform 0.15+)
+.terraform.lock.hcl
+
+my-pr-key-pair.pem
+
